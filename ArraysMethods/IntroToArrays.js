@@ -34,3 +34,12 @@ console.log(fruits);
 
 console.log(typeof fruits);
 console.log(typeof mixed);
+
+// To find that it is a array we use a function called Array.isArray
+
+console.log(Array.isArray(fruits));
+console.log(Array.isArray(mixed));
+
+let obj = {}
+
+console.log(Array.isArray(obj));
