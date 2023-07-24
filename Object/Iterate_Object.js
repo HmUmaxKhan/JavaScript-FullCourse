@@ -37,6 +37,8 @@ console.log("\n",Object.keys(person));
 console.log(Array.isArray(Object.keys(person)));
 
 // Now we can use object.keys to iterate  object using for of loop
+
+
 console.log("\n");
 for (let key of Object.keys(person)){
     console.log(person[key])
