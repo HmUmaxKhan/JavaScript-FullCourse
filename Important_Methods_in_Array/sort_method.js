@@ -72,18 +72,18 @@ const items1 =
 ]
 
 
-const lowtTohigh = [...items1].sort((a,b) => a.price - b.price);
+const lowTohigh = [...items1].sort((a,b) => a.price - b.price);
 
 console.log("\nLow to High\n");
 
-console.log(lowtTohigh);
+console.log(lowTohigh);
 
 
-const hightTolow = [...items1].sort((a,b) => b.price - a.price);
+const highTolow = [...items1].sort((a,b) => b.price - a.price);
 
-console.log("\nHigh to Low\n");
+console.log("\nHigh to ow\n");
 
-console.log(hightTolow);
+console.log(highTolow);
 
 
 console.log("\nOriginal Arrya\n");
