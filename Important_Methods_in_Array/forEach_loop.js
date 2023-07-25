@@ -16,6 +16,6 @@ var fruits = ["apple", "banana", "mango", "orange"];
 //     console.log(fruit.toUpperCase());
 // });
 
-fruits.forEach( fruit =>{
+fruits.forEach( (fruit) =>{
     console.log(fruit.toUpperCase());
 });
