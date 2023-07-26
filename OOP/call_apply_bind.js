@@ -33,10 +33,12 @@ person1.func.apply(person1, ['faslay', 'cricket']);
 
 // Bind is used to bind the function with specific values and we can use it later but binds does not take arguments
 
-person2.func.bind(person1);
+const myFunc = person2.func.bind(person1);
 
 // Bind does not print anything it just binds the function.
 
 // Now we can call bind function as
 
 person2.func('faslay', 'cricket');
+
+myFunc('love me like u do', 'football');
