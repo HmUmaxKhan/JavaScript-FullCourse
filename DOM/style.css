@@ -18,7 +18,7 @@ a {
 .header {
   position: relative;
   min-height: 60vh;
-  background: url("./bg-image.jpg");
+  background: rgb(44, 55, 63);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
