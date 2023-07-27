@@ -41,3 +41,7 @@ class Person {
     console.log(Ali1);
     Ali1.info();
     Ali1.sub();
+
+    // Sub class Student find info method for object 
+    //1st look into its class
+    // Not found then go to Parent Class
