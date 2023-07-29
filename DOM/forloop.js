@@ -43,10 +43,25 @@ const navItems = document.getElementsByTagName('a');
 // 2. for of loop
 // 3. forEach loop
 
-const items = querySelectorAll("a");
+const items = document.querySelectorAll("a");
 
-for (let i = 0; i < items.length; i++) {
-    const element = items[i];
-    element.style.color = "green";
-    element.style.backgroundColor = "blue";
-}
+// for (let i = 0; i < items.length; i++) {
+//     const element = items[i];
+//     element.style.color = "green";
+//     element.style.backgroundColor = "blue";
+// }
+
+
+// 2. for of loop
+
+// for (let navItem of navItems) {
+//     navItem.style.backgroundColor = "blue";
+//     navItem.style.color = "green";
+// }
+
+// 3. forEach loop
+
+items.forEach((item)=>{
+    item.style.color = "green";
+    item.style.backgroundColor = "black";
+})
