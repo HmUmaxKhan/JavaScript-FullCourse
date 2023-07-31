@@ -1,0 +1,23 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+button{
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    border-radius: 7px;
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: antiquewhite;
+    transition: 0.6s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0px 0px 15px green;
+}
