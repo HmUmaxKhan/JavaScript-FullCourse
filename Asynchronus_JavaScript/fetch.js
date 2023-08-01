@@ -5,6 +5,9 @@
 
 const URL = "https://jsonplaceholder.typicode.com/posts";
 
+/* This code is using the `fetch` function to make a GET request to the specified URL
+(`https://jsonplaceholder.typicode.com/posts`). */
+
 fetch(URL)
 .then((res)=>{
    return res.json();
