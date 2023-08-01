@@ -6,7 +6,6 @@ const xhr = new XMLHttpRequest();
 const url = "https://jsonplaceholder.typicode.com/posts";
 console.log(xhr);
 
-
 /* The code `xhr.open("GET", url, true);` is setting up the XMLHttpRequest object to make a GET request
 to the specified URL. */
 
